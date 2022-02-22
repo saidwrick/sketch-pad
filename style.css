@@ -1,0 +1,40 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+}
+
+.header{
+    width: 55vw;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.header .text{
+    font-size: 28px;
+}
+
+input{
+    width: 40px;
+}
+
+.container{
+    display:flex;
+    padding: 20px 0px;
+}
+
+.board{
+    display: flex;
+    background-color:lightgrey;
+    width: 55vw;
+    height: 55vw;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.square{
+    box-shadow: inset 0 0 1px #000;
+    background-color: white;
+}
